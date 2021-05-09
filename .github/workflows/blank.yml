@@ -4,7 +4,8 @@ name: CI
 
 on:
   schedule:
-  - cron: "*/5 * * * *"
+    - cron: "*/5 * * * *"  # scheduled at 06:00 (UTC+8) everyday
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
