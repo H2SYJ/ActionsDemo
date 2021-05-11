@@ -12,3 +12,6 @@ if __name__ == '__main__':
     book_name = j['data']['novel']['book_name']#书名
     book_title = j['data']['novel']['lastChapter']['chapter_title']#章节名
     update_time = j['data']['novel']['lastChapter']['cp_update_time']#更新时间
+    print(book_name)
+    print(book_title)
+    print(update_time)
