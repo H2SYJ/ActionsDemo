@@ -19,6 +19,7 @@ if __name__ == '__main__':
     print("标题："+book_title)
     print("更新时间："+update_time)
     now = datetime.datetime.now()
-    if (now.strftime("%Y-%m-%d") == dateArray.strftime("%Y-%m-%d"))
+    print(now.strftime("%Y-%m-%d"))
+    if (now.strftime("%Y-%m-%d") == dateArray.strftime("%Y-%m-%d")):
             print('send mail')
             #发送邮件
