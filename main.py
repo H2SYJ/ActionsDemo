@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print("书名："+book_name)
     print("标题："+book_title)
     print("更新时间："+update_time)
-    now = datetime.datetime.now()
+    now = datetime.datetime.now()+datetime.timedelta(hours=8)
     print("当前时间："+now.strftime("%Y-%m-%d %H:%M:%S"))
     if (now.strftime("%Y-%m-%d") == dateArray.strftime("%Y-%m-%d")):
             print('send mail')
